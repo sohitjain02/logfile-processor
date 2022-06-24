@@ -19,6 +19,7 @@ java -jar log-file-processor-1.0.jar
 Enter file path (Press enter to kill the process)::
 
 3. Here provide the valid log file path like C:\Users\sohit\Desktop\CS\logfile.txt
+(Sample logfile is committed here: logfile.txt)
 
 4. The code validates the log file in a way that each line should be a vaida json with id, state and timestamp being the mandatory attributes. It also validates whether there is a combination of STARTED and FINISHED events. If validation passes it, processes the file. The long running events (events taking >4ms) are logged in application logs and all the events are then saved to in memory database H2. 
 
