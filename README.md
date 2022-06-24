@@ -11,9 +11,11 @@ The saved eventg details can be retrieved by using a rest api call to /events en
 Steps to execute:
 
 1. Run the jar file using the command:
+<br>
 java -jar log-file-processor-1.0.jar
 
 2. After the application is booted up you will get the message like below:
+<br>
 Enter file path (Press enter to kill the process)::
 
 3. Here provide the valid log file path like C:\Users\sohit\Desktop\CS\logfile.txt
